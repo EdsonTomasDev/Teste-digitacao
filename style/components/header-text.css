@@ -1,0 +1,30 @@
+.header-text {
+    
+    width: 300px;
+    margin-left: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.header-text h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #F48E9C;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.header-text p {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+
+.header-text p:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.header-text p strong {
+    font-weight: bold;
+}
