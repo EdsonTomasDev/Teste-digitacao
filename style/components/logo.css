@@ -1,7 +1,38 @@
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+}
+
 .header {
+    width: 400px;
+    background: #eee;
+    margin-top: 25px;
+    border-radius: 5px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
 
 }
 
 .header-logo {
+    background-color: black;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.header-logo__img1 {
+    width: 100px;
     
+}
+
+.header-logo__img2 {
+   width: 80px;
 }
